@@ -128,10 +128,14 @@ html, body {
 .webtech img {
 	width: 6em;
 	height: 6em;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 .webtech2 img {
 	width: auto;
 	height: 4em;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
 
@@ -208,4 +212,11 @@ html, body {
 }
 .overlay-fade-in:hover .button {
   transition-delay: 0.2s;
+}
+
+/* Resume page */
+.mainDetails {
+	padding: 25px 35px;
+	border-bottom: 2px solid #cf8a05;
+	background: #ededed;
 }
