@@ -186,19 +186,6 @@
 			<!-- Resume Page ------------------------------->
 			<div class="parallax-page">
 				<section class="shadow-box content-box about-page" id="mag3" target="blank" data-magellan-target="mag3">
-					<div class="row">
-					  <div class="small-6 small-centered columns">
-
-					    <div class="service">
-					      <div class="service-icon-box">
-					        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/SpaceX_CRS-3.png/360px-SpaceX_CRS-3.png" alt="" class="service-icon">
-					      </div>
-					      <h4 class="service-heading">Interstellar Travel</h4>
-					      <p class="service-description">It has been a very busy few months for the Project Voyager team. But the fruits of labor are finally starting to pay off. We have officially succeed at creating orbital insertions within an accuracy of 1km.</p>
-					    </div>
-
-					  </div>
-					</div>
           <div class="row small-up-12 medium-up-12 large-up-12">
 						<h2>Resume</h2>
 						<hr/>
@@ -216,35 +203,10 @@
             <footer class="footer">
               <div class="row">
                 <div class="small-12 medium-6 medium-push-6 columns">
-                  <p class="logo show-for-small-only"><i class="fi-target"></i><b>gVlq</b> | Portfolio Website</p>
-                  <form class="footer-form" role="form">   <!--  action="contact.php" method="POST"> -->
-                    <div class="row">
-                      <div class="medium-9 medium-push-3 columns">
-                        <label>
-                          <label for="email" class="contact">Contact Me</label>
-                          <input type="email" id="email" name="email" placeholder="example@domain.com" value="<?php echo htmlspecialchars($_POST['email']); ?>" />
-													<?php echo "<p class='text-danger'>$errEmail</p>";?>
-                        </label>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="medium-9 medium-push-3 columns">
-                        <label>
-                          <textarea rows="5" id="message" placeholder="Message"name="message"><?php echo htmlspecialchars($_POST['message']);?></textarea>
-													<?php echo "<p class='text-danger'>$errMessage</p>";?>
-                        </label>
-                      </div>
-                      <div class="row">
-                        <div class="medium-9 medium-push-3 columns">
-                          <button class="submit" type="submit" value="Send">Send</button>
-                        </div>
-												<?php echo $result; ?>
-                      </div>
-                    </div>
-                  </form>
+                  <p class="logo show-for-small-only"><i class="fi-target"></i><b>gVlq</b> | Portfolio</p>
                 </div>
                 <div class="small-12 medium-6 medium-pull-6 columns">
-                  <p class="logo hide-for-small-only"><i class="fi-target"></i><b>gVlq</b> | Portfolio Website</p>
+                  <p class="logo hide-for-small-only"><i class="fi-target"></i><b>gVlq</b> | Portfolio</p>
                   <p class="contact-info"><i class="fa fa-envelope-open" aria-hidden="true"></i> vlaicu.gabriel11@yahoo.com</p>
                   <p class="contact-info"><i class="fa fa-mobile" aria-hidden="true"></i> +40728309553</p>
                 </div>
