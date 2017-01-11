@@ -1,34 +1,3 @@
-<?php
-	if (isset($_POST["submit"])) {
-		$email = $_POST['email'];
-		$message = $_POST['message'];
-
-		$from = 'gVLQ Contact Form';
-		$to = 'vlaicu.gabriel11@yahoo.com';
-		$subject = 'Message from gVLQ Demo ';
-
-		$body ="From:  E-Mail: $email\n Message:\n $message";
-
-		// Check if email has been entered and is valid
-		if (!$_POST['email'] || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-			$errEmail = 'Please enter a valid email address';
-		}
-
-		//Check if message has been entered
-		if (!$_POST['message']) {
-			$errMessage = 'Please enter your message';
-		}
-// If there are no errors, send the email
-if (!$errEmail && !$errMessage) {
-	if (mail ($to, $subject, $body, $from)) {
-		$result='<div class="alert alert-success">Thank You! I will be in touch</div>';
-	} else {
-		$result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later.</div>';
-	}
-}
-	}
-?>
-
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
   <head>
@@ -217,6 +186,19 @@ if (!$errEmail && !$errMessage) {
 			<!-- Resume Page ------------------------------->
 			<div class="parallax-page">
 				<section class="shadow-box content-box about-page" id="mag3" target="blank" data-magellan-target="mag3">
+					<div class="row">
+					  <div class="small-6 small-centered columns">
+
+					    <div class="service">
+					      <div class="service-icon-box">
+					        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/SpaceX_CRS-3.png/360px-SpaceX_CRS-3.png" alt="" class="service-icon">
+					      </div>
+					      <h4 class="service-heading">Interstellar Travel</h4>
+					      <p class="service-description">It has been a very busy few months for the Project Voyager team. But the fruits of labor are finally starting to pay off. We have officially succeed at creating orbital insertions within an accuracy of 1km.</p>
+					    </div>
+
+					  </div>
+					</div>
           <div class="row small-up-12 medium-up-12 large-up-12">
 						<h2>Resume</h2>
 						<hr/>
@@ -235,7 +217,7 @@ if (!$errEmail && !$errMessage) {
               <div class="row">
                 <div class="small-12 medium-6 medium-push-6 columns">
                   <p class="logo show-for-small-only"><i class="fi-target"></i><b>gVlq</b> | Portfolio Website</p>
-                  <form class="footer-form" role="form" method="post" action="index.php">
+                  <form class="footer-form" role="form" method="post" action="contact.php">
                     <div class="row">
                       <div class="medium-9 medium-push-3 columns">
                         <label>

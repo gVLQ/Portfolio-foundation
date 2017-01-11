@@ -1,9 +1,12 @@
 html, body {
 	/*background: url('../img/bg.jpg') center center no-repeat;
-	background-repeat: repeat-y; */
+	background-repeat: repeat-y;
 	background-color: #C0D9D9;
 	height:100%;
-	background-size:cover;
+	background-size:cover; */
+	background-image: url('../img/bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .clear {clear: both;}
@@ -132,8 +135,11 @@ html, body {
   .card p {
     margin: 0; }
   .card .action {
+		position: relative;
     border-top: 1px solid rgba(160, 160, 160, 0.2);
-    padding: 1.3rem; }
+    padding: 1.3rem;
+		bottom: 0;
+	}
   .card a {
     color: #ffab40;
     margin-right: 1.3rem;
