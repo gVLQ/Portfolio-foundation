@@ -217,7 +217,7 @@
               <div class="row">
                 <div class="small-12 medium-6 medium-push-6 columns">
                   <p class="logo show-for-small-only"><i class="fi-target"></i><b>gVlq</b> | Portfolio Website</p>
-                  <form class="footer-form" role="form" method="post" action="contact.php">
+                  <form class="footer-form" role="form" action="contact.php" method="POST">
                     <div class="row">
                       <div class="medium-9 medium-push-3 columns">
                         <label>
