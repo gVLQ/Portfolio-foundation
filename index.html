@@ -181,7 +181,24 @@
 						</div>
 					</div>
 
-              </section>
+          <div class="medium-4 columns">
+						<div class="card">
+						  <div class="image">
+							<img src="img/webTech/jsjquery.png" alt="javascript">
+							<span class="title"></span>
+						  </div>
+						  <div class="content">
+							<span class="title">Javascript - Dice Game</span>
+							<p>A fun little dice game made only in Javascript. The point of the game is to get to 100 points first. Roll the dice and
+              hold the scor at each round.</p>
+						  </div>
+						  <div class="action">
+							<a href="http://gvlq-dicegame.herokuapp.com/" target="blank">Go to App</a>
+						  </div>
+						</div>
+					</div>
+
+      </section>
 			</div>
 			<!-- Resume Page ------------------------------->
 			<div class="parallax-page">
@@ -203,10 +220,10 @@
             <footer class="footer">
               <div class="row">
                 <div class="small-12 medium-6 medium-push-6 columns">
-                  <p class="logo show-for-small-only"><i class="fi-target"></i><b>gVlq</b> | Portfolio</p>
+                  <p class="logo show-for-small-only"><i class="fi-target"></i><b>gVlq</b> | Frontend Development</p>
                 </div>
                 <div class="small-12 medium-6 medium-pull-6 columns">
-                  <p class="logo hide-for-small-only"><i class="fi-target"></i><b>gVlq</b> | Portfolio</p>
+                  <p class="logo hide-for-small-only"><i class="fi-target"></i><b>gVlq</b> | Frontend Development</p>
                   <p class="contact-info"><i class="fa fa-envelope-open" aria-hidden="true"></i> vlaicu.gabriel11@yahoo.com</p>
                   <p class="contact-info"><i class="fa fa-mobile" aria-hidden="true"></i> +40728309553</p>
                 </div>
