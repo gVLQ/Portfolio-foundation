@@ -198,6 +198,24 @@
 						</div>
 					</div>
 
+          <div class="medium-4 columns">
+						<div class="card">
+						  <div class="image">
+							<img src="img/webTech/jsjquery.png" alt="javascript">
+							<span class="title"></span>
+						  </div>
+						  <div class="content">
+							<span class="title">Javascript - Budget App</span>
+							<p>A more complex app created in pure Javascript. A budget App that helps you check track
+              of montly incomes and expenses. You can see the percentage of each expense and calculate your final montly
+            budget.</p>
+						  </div>
+						  <div class="action">
+							<a href="https://gvlq-budgetapp.herokuapp.com/" target="blank">Go to App</a>
+						  </div>
+						</div>
+					</div>
+        </div>
       </section>
 			</div>
 			<!-- Resume Page ------------------------------->
